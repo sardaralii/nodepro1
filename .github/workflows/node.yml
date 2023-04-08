@@ -1,6 +1,8 @@
-name: Node
+name: callerworkflow
 
-on: [push]
+on: 
+  repository_dispatch:
+    types:[workflows]
 
 jobs:
   build-and-test:
