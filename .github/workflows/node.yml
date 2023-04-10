@@ -11,7 +11,7 @@ jobs:
           repository: sardaralii/nodepro1
       - name: Copy files to new repository
         run: |
-          cp -R ./* ../https://github.com/sardaralii/nodepro1/
+          cp -R ./* ../https://github.com/sardaralii/nodpro2/
           cd ../nodepro2/
           git config --global user.email "sardarali785621@gmail.com"
           git config --global user.name "sardarali"
